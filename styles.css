@@ -19,7 +19,7 @@ nav {
   width: 100%;
   background-color: #2a2a2a;
   padding: 1em;
-  color: #fff;
+  color: #249c00;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -127,10 +127,12 @@ footer {
 }
 /* Services Gallery */
 .services-gallery {
-  display: flex;
+  /*display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  gap: 1em;
+  gap: 1em;*/
+  column-count: 5;
+  column-gap: 1em;
 }
 
 .service-item {
@@ -301,10 +303,12 @@ h6 {
 }
 
 .video-container {
-  display: flex;
+  /*display: flex;
   flex-wrap: wrap;
   gap: 30px;
-  justify-content: space-around;
+  justify-content: space-around;*/
+  column-count: 3;
+  column-gap: 1em;
 }
 
 .youtube-video {
@@ -375,7 +379,9 @@ h6 {
 }
 
 .game-card {
-  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .past-games {
   padding: 20px;
