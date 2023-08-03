@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Montserrat:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+    />
+    <!-- ... -->
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <header>
+      <div class="logo">
+        <img
+          src="BFS Lettermark Box White.png"
+          alt="Company Logo"
+          width="50"
+          height="50"
+        />
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home">
+      <h2>Welcome to Blownfuse Softlabs Inc</h2>
+      <p>
+        Blownfuse Softlabs Inc. is an industry-leading software development and
+        digital marketing firm. Our team of experienced professionals is
+        dedicated to providing innovative solutions to meet our clients' unique
+        needs. We specialize in mobile app development, website development,
+        game development, cloud architecture consultancy, and digital marketing.
+        With a focus on high-quality service and customer satisfaction, we
+        strive to exceed your expectations in all areas of our business.
+      </p>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+      <h2>About Us</h2>
+      <p>
+        Blownfuse Softlabs Inc is a pioneering software development and digital
+        marketing company. With an ethos deeply rooted in innovation and
+        quality, we've been dedicated to delivering high-quality services that
+        exceed client expectations. Our team comprises experts who are
+        passionate about transforming ideas into reality, thereby driving growth
+        for businesses in the digital age.
+      </p>
+      <p>
+        Since our inception, we have committed ourselves to stay ahead of the
+        curve by employing state-of-the-art technologies in all our projects.
+        Your business success is our ultimate goal.
+      </p>
+    </section>
+
+    <section id="latest-videos">
+      <h2>Latest Videos of Our Games</h2>
+      <div class="video-container">
+        <iframe
+          class="youtube-video"
+          src="https://www.youtube.com/embed/WBFDtiYnQxE"
+          frameborder="0"
+          allow="autoplay; encrypted-media"
+          allowfullscreen
+        ></iframe>
+        <iframe
+          class="youtube-video"
+          src="https://www.youtube.com/embed/oKyAZ1zhlQU"
+          frameborder="0"
+          allow="autoplay; encrypted-media"
+          allowfullscreen
+        ></iframe>
+        <!-- Add more videos as needed -->
+      </div>
+    </section>
+
+    <section class="past-games">
+      <h2>Our Past Games</h2>
+      <div class="game-scroll">
+        <div class="game-card">
+          <img
+            src="https://play-lh.googleusercontent.com/7VupYHcEaAT8IfaS3SidgHMrb0pXnaI3OrwpANaTBzrkAnwE-aY-xqahWECreDHP-RQ=w416-h235-rw"
+            alt="Game 1 image"
+          />
+          <h3>Game 1</h3>
+          <a
+            href="https://play.google.com/store/apps/details?id=com.StupidAIgames.TrashCan"
+            target="_blank"
+            >Play on Google Play</a
+          >
+        </div>
+        <div class="game-card">
+          <img
+            src="https://img.itch.zone/aW1nLzcyNzEzMzkucG5n/315x250%23c/uRXPVa.png"
+            alt="Game 2 image"
+          />
+          <h3>Game 2</h3>
+          <a
+            href="https://iamindrajit.itch.io/r-n-r-reset-and-restart"
+            target="_blank"
+            >Play on itch.io</a
+          >
+        </div>
+        <!-- More game cards can be added in the same way -->
+      </div>
+    </section>
+    <!-- Services Section -->
+    <section id="services">
+      <h2>Our Services</h2>
+      <div class="services-gallery">
+        <div class="service-item">
+          <img src="mobileapp.png" alt="App Development" />
+          <p>App Development</p>
+        </div>
+        <div class="service-item">
+          <img src="website.png" alt="Website Development" />
+          <p>Website Development</p>
+        </div>
+        <div class="service-item">
+          <img src="games.png" alt="Game Development" />
+          <p>Game Development</p>
+        </div>
+        <div class="service-item">
+          <img src="cloud.png" alt="Cloud Architecture Consultancy" />
+          <p>Cloud Architecture Consultancy</p>
+        </div>
+        <div class="service-item">
+          <img src="digital.png" alt="Digital Marketing" />
+          <p>Digital Marketing</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <div class="contact-container">
+        <div>
+          <h2>Contact Us</h2>
+          <form>
+            <label for="name"><i class="fas fa-user"></i> Name</label>
+            <input type="text" id="name" name="name" required />
+
+            <label for="email"><i class="fas fa-envelope"></i> Email</label>
+            <input type="email" id="email" name="email" required />
+
+            <label for="message"
+              ><i class="fas fa-pencil-alt"></i> Message</label
+            >
+            <textarea id="message" name="message"></textarea>
+
+            <input type="submit" value="Submit" />
+          </form>
+          <h3><i class="fas fa-phone"></i> Phone</h3>
+          <p>+19546077460</p>
+        </div>
+        <div>
+          <h2>Our Location</h2>
+          <p>1314 E LAS OLAS BLVD 2342, FT LAUDERDALE FL 33301</p>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14345.936973684274!2d-80.1354312!3d26.1192698!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjbCsDA3JzA5LjUiTiA4MMKwMDgnMDcuNSJX!5e0!3m2!1sen!2sus!4v1626782215479!5m2!1sen!2sus"
+            width="600"
+            height="450"
+            style="border: 0;"
+            allowfullscreen=""
+            loading="lazy"
+          ></iframe>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2023 Blownfuse Softlabs Inc.</p>
+    </footer>
+  </body>
+</html>
