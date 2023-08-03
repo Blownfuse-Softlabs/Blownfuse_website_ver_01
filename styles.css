@@ -429,3 +429,23 @@ h6 {
   cursor: pointer;
   border-radius: 4px;
 }
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 3em; /* Increased the margin-bottom for more space */
+}
+
+.contact-info .phone {
+  margin-bottom: 1.5em; /* Increased the margin-bottom for more space */
+}
+
+.contact-info .email a {
+  color: #2a2a2a;
+  text-decoration: none;
+}
+
+.contact-info .email a:hover {
+  color: #249c00;
+}
